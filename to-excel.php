@@ -12,10 +12,13 @@ $fileName  = "lmsdata-" . date('Ymd') . ".xls";
 
 
 // Column names 
+$fields1 = array('THis is tomas gwapo', '', '', ''); 
 $fields = array('#', 'FIRSTNAME', 'LASTNAME', 'EMAIL'); 
  
 // Display column names as first row 
-$excelData = implode("\t", array_values($fields)) . "\n"; 
+
+$excelData = implode("\t", array_values($fields1)) . "\n"; 
+$excelData .= implode("\t", array_values($fields)) . "\n"; 
 
 
 $users = "select firstname, lastname, email from users";

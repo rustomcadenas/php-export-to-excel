@@ -47,7 +47,7 @@
         <form action="" method="post">
             <button type="submit" id="btnExport" name='export' class="btn btn-outline-success" >Export Data</button>
         </form> 
-        <a href="to-ecel.php" class="btn btn-outline-success">Export Data</a>
+        <a href="to-excel.php" target="_blank" class="btn btn-outline-success">Export Data</a>
 
         
     </div>
